@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            background-color: red;
+            height: 100px;
+            width: 100px;
+            animation-name: master;
+            animation-iteration-count: infinite;
+            position: relative;
+            animation-duration: 3s;
+        }
+        @keyframes master{
+            0%{background-color: red;}
+            25%{background-color: green;left:100px; top: 0;}
+            50%{background-color: blue;left: 100px; top: 100px;}
+            75%{background-color: yellow;left: 0;top: 100px;}
+            100%{
+                background-color: red;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main"></div>
+</body>
+</html>

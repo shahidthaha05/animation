@@ -1,0 +1,24 @@
+@keyframes ball{
+    0%{background-color: red;top: 100px;}
+    10%{background-color: red;top: 120px;}
+    20%{background-color: red;top: 140px;}
+    30%{background-color: red;top: 160px;}
+    40%{background-color: red;top: 180px;}
+    50%{background-color: red; top: 200px;}
+    60%{background-color: red;top: 180px;}
+    70%{background-color: red;top: 160px;}
+    80%{background-color: red;top: 140px;}
+    90%{background-color: red;top: 120px;}
+    100%{background-color: red;top: 100px;}
+}
+.main{
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    animation-name: ball;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-timing-function: ease-in-out;
+}
